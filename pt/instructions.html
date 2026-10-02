@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instruções de utilização · Pylia Sleep</title><meta name="description" content="Dorme melhor em 6 semanas">
+<style>
+@font-face { font-family: "Unbounded"; src: url("/assets/Unbounded-var.woff2") format("woff2"); font-weight: 200 900; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("/assets/Inter-var.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+:root { --night: #0b0d1f; --ink: #ede8de; --muted: rgba(237,232,222,0.68); --ember: #f5944d; --ember-light: #ffd199; --card: rgba(255,255,255,0.05); --line: rgba(255,255,255,0.1); }
+* { box-sizing: border-box; }
+html { background: var(--night); }
+body { margin: 0; color: var(--ink); font: 17px/1.65 "Inter", -apple-system, system-ui, sans-serif;
+       background: radial-gradient(900px 600px at 15% -10%, rgba(77,64,140,0.55), transparent 70%),
+                   radial-gradient(800px 500px at 100% 110%, rgba(204,92,51,0.35), transparent 70%), var(--night); min-height: 100vh; }
+a { color: var(--ember); text-decoration: none; } a:hover { text-decoration: underline; }
+.wrap { max-width: 780px; margin: 0 auto; padding: 32px 20px 80px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
+.brand { display: flex; align-items: center; gap: 12px; color: var(--ink); font: 700 16px "Unbounded", sans-serif; letter-spacing: 0.08em; }
+.brand:hover { text-decoration: none; }
+.temple { width: 34px; height: 34px; position: relative; flex: none; }
+.temple i { position: absolute; border-radius: 99px; background: rgba(237,232,222,0.35); }
+.temple .l { left: 3px; right: 3px; top: 3px; height: 4px; background: var(--ink); }
+.temple .c { top: 10px; width: 6px; height: 16px; } .temple .c1 { left: 7px; background: var(--ember); box-shadow: 0 0 10px var(--ember); }
+.temple .c2 { left: 14px; } .temple .c3 { left: 21px; } .temple .p { left: 3px; right: 3px; bottom: 3px; height: 3px; background: rgba(237,232,222,0.6); }
+.langs { display: flex; gap: 6px; flex-wrap: wrap; } .langs a { padding: 6px 12px; border-radius: 99px; background: var(--card); color: var(--muted); font-size: 14px; }
+.langs a.on { background: var(--ember); color: var(--night); font-weight: 600; }
+h1 { font: 800 clamp(24px, 6.4vw, 46px)/1.15 "Unbounded", sans-serif; letter-spacing: -0.02em; margin: 0 0 10px; overflow-wrap: anywhere; hyphens: auto; }
+h1 em { font-style: normal; color: var(--ember); }
+h2 { font: 700 20px/1.3 "Unbounded", sans-serif; margin: 38px 0 10px; }
+.meta { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+.lead { font-size: 19px; color: var(--muted); max-width: 640px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 28px 0; }
+.cards a { display: block; padding: 20px; border-radius: 20px; background: var(--card); border: 1px solid var(--line); color: var(--ink); font-weight: 600; }
+.cards a:hover { border-color: var(--ember); text-decoration: none; }
+.toc { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 18px 22px 18px 44px; }
+.toc li { margin: 4px 0; }
+.rec { display: grid; gap: 10px; margin: 12px 0; }
+.rec div { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; }
+.rec b { display: block; color: var(--muted); font-size: 13px; font-weight: 600; }
+footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style></head><body><div class="wrap">
+<header><a class="brand" href="/pt/"><span class="temple"><i class="l"></i><i class="c c1"></i><i class="c c2"></i><i class="c c3"></i><i class="p"></i></span>PYLIA SLEEP</a>
+<nav class="langs"><a class="" href="/instructions.html">Français</a><a class="" href="/en/instructions.html">English</a><a class="" href="/es/instructions.html">Español</a><a class="" href="/de/instructions.html">Deutsch</a><a class="" href="/it/instructions.html">Italiano</a><a class="on" href="/pt/instructions.html">Português</a></nav></header>
+<h1>Instruções de utilização</h1>
+<div class="meta">Versão 1, em vigor desde 1 de outubro de 2026</div>
+<p>Estas instruções descrevem a utilização prevista do Pylia, os seus limites e as precauções a respeitar. Lê-as antes de começares o programa.</p>
+<ol class="toc"><li><a href="#a1">Utilização prevista</a></li><li><a href="#a2">Público-alvo</a></li><li><a href="#a3">Contraindicações e precauções</a></li><li><a href="#a4">Quando consultar um médico</a></li><li><a href="#a5">Efeitos esperados e efeitos indesejáveis</a></li><li><a href="#a6">Usar bem o Pylia</a></li><li><a href="#a7">Fiabilidade dos dados</a></li><li><a href="#a8">Comunicar um problema</a></li><li><a href="#a9">Editor</a></li></ol>
+<h2 id="a1">Artigo 1. Utilização prevista</h2>
+<p>O Pylia é uma app de bem-estar destinada a adultos que querem melhorar o sono. Propõe um programa de 6 semanas inspirado em métodos comportamentais reconhecidos pela investigação sobre o sono: educação sobre o sono, diário de sono, janela de sono, controlo de estímulos, acalmar os pensamentos, ritmo e ambiente, prevenção de recaídas.</p>
+<p><strong>O Pylia não é um dispositivo médico com marcação CE.</strong> Não faz diagnósticos, não substitui uma consulta e não propõe qualquer medicamento.</p>
+<h2 id="a2">Artigo 2. Público-alvo</h2>
+<ul><li>Adultos com 18 anos ou mais.</li><li>Pessoas que têm dificuldade em adormecer ou manter o sono, ou que acordam cansadas.</li><li>Pessoas capazes de seguir sozinhas um programa diário de poucos minutos.</li></ul>
+<h2 id="a3">Artigo 3. Contraindicações e precauções</h2>
+<p>Reduzir o tempo na cama (janela de sono) não é recomendado sem aconselhamento médico em caso de:</p>
+<ul><li>epilepsia;</li><li>perturbação bipolar;</li><li>gravidez;</li><li>sonolência diurna acentuada ou adormecimentos involuntários;</li><li>condução profissional ou utilização de máquinas perigosas;</li><li>idade inferior a 18 anos.</li></ul>
+<p>O questionário de segurança da app deteta estas situações: a janela de sono mantém-se suave (nunca abaixo das 7 h). <strong>Não conduzas se te sentires sonolento.</strong></p>
+<h2 id="a4">Artigo 4. Quando consultar um médico</h2>
+<ul><li>Ressonar forte, pausas respiratórias durante o sono ou oxigénio noturno baixo.</li><li>Necessidade irresistível de mexer as pernas à noite.</li><li>Sonolência diurna acentuada.</li><li>Humor depressivo ou pensamentos negros: liga para o número de emergência (112).</li><li>Dificuldades de sono que persistem depois do programa.</li><li>Trabalho noturno ou por turnos.</li></ul>
+<h2 id="a5">Artigo 5. Efeitos esperados e efeitos indesejáveis</h2>
+<p>As primeiras semanas de janela de sono costumam trazer cansaço ou sonolência passageiros. O Pylia acompanha-os no balanço de cada semana e alarga automaticamente a janela 30 minutos se se tornarem acentuados.</p>
+<p>Os resultados variam de pessoa para pessoa e não são garantidos.</p>
+<h2 id="a6">Artigo 6. Usar bem o Pylia</h2>
+<ul><li>Preenche o diário todas as manhãs, mesmo depois de uma má noite.</li><li>Lê a lição e faz as ações de cada semana.</li><li>Responde ao balanço de cada semana.</li><li>Respeita a tua janela de sono e a hora de levantar.</li><li>Se precisares, exporta o relatório PDF para o teu coach ou o teu médico.</li></ul>
+<h2 id="a7">Artigo 7. Fiabilidade dos dados</h2>
+<p>As durações do diário são estimadas a partir das tuas respostas. Os dados lidos na app Saúde dependem do dispositivo que os mede (relógio, anel, iPhone). Nenhum valor apresentado tem valor de diagnóstico.</p>
+<h2 id="a8">Artigo 8. Comunicar um problema</h2>
+<p>Se notares um efeito indesejável, um erro de cálculo ou um funcionamento anómalo, escreve para pylia.app+sleep@gmail.com indicando a versão da app (Definições → Versão).</p>
+<h2 id="a9">Artigo 9. Editor</h2>
+<div class="rec"><div><b>Editor</b>PYLIA</div><div><b>Contacto</b>pylia.app+sleep@gmail.com</div></div>
+<footer>O Pylia Sleep é uma app de bem-estar, não um dispositivo médico.<br>Contacto : <a href="mailto:pylia.app+sleep@gmail.com">pylia.app+sleep@gmail.com</a></footer>
+</div></body></html>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Pylia Sleep</title><meta name="description" content="Duerme mejor en 6 semanas">
+<style>
+@font-face { font-family: "Unbounded"; src: url("/assets/Unbounded-var.woff2") format("woff2"); font-weight: 200 900; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("/assets/Inter-var.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+:root { --night: #0b0d1f; --ink: #ede8de; --muted: rgba(237,232,222,0.68); --ember: #f5944d; --ember-light: #ffd199; --card: rgba(255,255,255,0.05); --line: rgba(255,255,255,0.1); }
+* { box-sizing: border-box; }
+html { background: var(--night); }
+body { margin: 0; color: var(--ink); font: 17px/1.65 "Inter", -apple-system, system-ui, sans-serif;
+       background: radial-gradient(900px 600px at 15% -10%, rgba(77,64,140,0.55), transparent 70%),
+                   radial-gradient(800px 500px at 100% 110%, rgba(204,92,51,0.35), transparent 70%), var(--night); min-height: 100vh; }
+a { color: var(--ember); text-decoration: none; } a:hover { text-decoration: underline; }
+.wrap { max-width: 780px; margin: 0 auto; padding: 32px 20px 80px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
+.brand { display: flex; align-items: center; gap: 12px; color: var(--ink); font: 700 16px "Unbounded", sans-serif; letter-spacing: 0.08em; }
+.brand:hover { text-decoration: none; }
+.temple { width: 34px; height: 34px; position: relative; flex: none; }
+.temple i { position: absolute; border-radius: 99px; background: rgba(237,232,222,0.35); }
+.temple .l { left: 3px; right: 3px; top: 3px; height: 4px; background: var(--ink); }
+.temple .c { top: 10px; width: 6px; height: 16px; } .temple .c1 { left: 7px; background: var(--ember); box-shadow: 0 0 10px var(--ember); }
+.temple .c2 { left: 14px; } .temple .c3 { left: 21px; } .temple .p { left: 3px; right: 3px; bottom: 3px; height: 3px; background: rgba(237,232,222,0.6); }
+.langs { display: flex; gap: 6px; flex-wrap: wrap; } .langs a { padding: 6px 12px; border-radius: 99px; background: var(--card); color: var(--muted); font-size: 14px; }
+.langs a.on { background: var(--ember); color: var(--night); font-weight: 600; }
+h1 { font: 800 clamp(24px, 6.4vw, 46px)/1.15 "Unbounded", sans-serif; letter-spacing: -0.02em; margin: 0 0 10px; overflow-wrap: anywhere; hyphens: auto; }
+h1 em { font-style: normal; color: var(--ember); }
+h2 { font: 700 20px/1.3 "Unbounded", sans-serif; margin: 38px 0 10px; }
+.meta { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+.lead { font-size: 19px; color: var(--muted); max-width: 640px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 28px 0; }
+.cards a { display: block; padding: 20px; border-radius: 20px; background: var(--card); border: 1px solid var(--line); color: var(--ink); font-weight: 600; }
+.cards a:hover { border-color: var(--ember); text-decoration: none; }
+.toc { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 18px 22px 18px 44px; }
+.toc li { margin: 4px 0; }
+.rec { display: grid; gap: 10px; margin: 12px 0; }
+.rec div { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; }
+.rec b { display: block; color: var(--muted); font-size: 13px; font-weight: 600; }
+footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style></head><body><div class="wrap">
+<header><a class="brand" href="/es/"><span class="temple"><i class="l"></i><i class="c c1"></i><i class="c c2"></i><i class="c c3"></i><i class="p"></i></span>PYLIA SLEEP</a>
+<nav class="langs"><a class="" href="/privacy.html">Français</a><a class="" href="/en/privacy.html">English</a><a class="on" href="/es/privacy.html">Español</a><a class="" href="/de/privacy.html">Deutsch</a><a class="" href="/it/privacy.html">Italiano</a><a class="" href="/pt/privacy.html">Português</a></nav></header>
+<h1>Política de privacidad</h1>
+<div class="meta">Versión 9, vigente desde el 1 de octubre de 2026</div>
+<p>La presente política de privacidad describe cómo la aplicación móvil Pylia Sleep trata los datos personales de sus usuarios, de conformidad con el Reglamento (UE) 2016/679 de 27 de abril de 2016 («RGPD») y la Ley francesa n.º 78-17 de 6 de enero de 1978 modificada («Informatique et Libertés»).</p>
+<ol class="toc"><li><a href="#a1">Definiciones</a></li><li><a href="#a2">Responsable del tratamiento</a></li><li><a href="#a3">Principio: tratamiento local, sin cuenta</a></li><li><a href="#a4">Datos tratados</a></li><li><a href="#a5">Finalidades y bases jurídicas</a></li><li><a href="#a6">Destinatarios de los datos</a></li><li><a href="#a7">Transferencias fuera de la Unión Europea</a></li><li><a href="#a8">Plazo de conservación</a></li><li><a href="#a9">Seguridad</a></li><li><a href="#a10">Permisos del dispositivo</a></li><li><a href="#a11">Cookies y rastreadores</a></li><li><a href="#a12">Sus derechos</a></li><li><a href="#a13">Menores</a></li><li><a href="#a14">Modificación de la política</a></li><li><a href="#a15">Contacto</a></li></ol>
+<h2 id="a1">Artículo 1. Definiciones</h2>
+<ul><li><strong>«Aplicación»</strong>: la aplicación móvil Pylia Sleep, disponible en el App Store de Apple.</li><li><strong>«Editor»</strong>: PYLIA, que edita la Aplicación.</li><li><strong>«Usuario»</strong> o <strong>«usted»</strong>: toda persona que utiliza la Aplicación.</li><li><strong>«Datos personales»</strong>: toda información sobre una persona física identificada o identificable, en el sentido del artículo 4 del RGPD.</li></ul>
+<h2 id="a2">Artículo 2. Responsable del tratamiento</h2>
+<p>El responsable del tratamiento es PYLIA. Para cualquier pregunta sobre sus datos personales, puede escribir a: pylia.app+sleep@gmail.com.</p>
+<h2 id="a3">Artículo 3. Principio: tratamiento local, sin cuenta</h2>
+<p>La Aplicación funciona <strong>sin creación de cuenta</strong> y <strong>sin ningún servidor del Editor</strong>. Los datos que usted introduce o que la Aplicación calcula se guardan <strong>únicamente en su dispositivo</strong>. El Editor nunca tiene acceso a ellos ni los recibe.</p>
+<h2 id="a4">Artículo 4. Datos tratados</h2>
+<p><strong>4.1 Datos guardados en su dispositivo</strong></p>
+<ul><li>Datos de sueño: horas de acostarse y de despertarse, duración de las noches y siestas, número de veces que se pospone la alarma.</li><li>Respuestas al cuestionario del despertar: calidad del sueño, energía, humor, agujetas, sesión deportiva prevista.</li><li>Datos calculados: puntuación de recuperación, consejos, insignias y estadísticas.</li><li>Preferencias: sonido de la alarma, idioma, apariencia y otros ajustes.</li><li>Perfil opcional: el nombre o apodo y el avatar que usted elija.</li><li>Notas de «vaciar la mente» por la noche, si utiliza esta función.</li><li>Diario de sueño y programa: tiempo para dormirse, despertares nocturnos, semana en curso, lecciones leídas y acciones marcadas.</li><li>Datos de Apple Salud, solo si usted lo autoriza: fases de sueño, frecuencia cardíaca, variabilidad cardíaca, frecuencia respiratoria, saturación de oxígeno, temperatura de la muñeca, alteraciones respiratorias, pasos, ejercicio, tiempo a la luz del día, cafeína, alcohol y sesiones de atención plena de los últimos 30 días, solo lectura.</li><li>Balances semanales (puntuación de gravedad, somnolencia, estado de ánimo), respuestas al cuestionario de seguridad y ejercicios del programa.</li></ul>
+<p>Las respuestas sobre su sueño y su estado de forma pueden constituir <strong>datos relativos a la salud</strong> en el sentido del artículo 9 del RGPD. Nunca salen de su dispositivo.</p>
+<p>Los datos de Apple Salud se leen en su dispositivo, nunca se transmiten ni se utilizan con fines publicitarios. Las preguntas que hace al coach las procesa el modelo de inteligencia artificial de Apple que funciona en su dispositivo: el Editor no las recibe ni las conserva.</p>
+<p>El informe PDF se genera en su dispositivo y solo se comparte si usted decide enviarlo.</p>
+<p>La historia «Mis progresos» es una imagen creada en su dispositivo a partir de sus cifras (horas de sueño, puntuación, tiempo para dormirse, eficiencia, avatar). Solo se comparte si usted decide enviarla o guardarla en sus fotos; una vez publicada en una red social, su difusión se rige por las condiciones de dicha red.</p>
+<p><strong>4.2 Datos no recogidos</strong></p>
+<p>Aparte de los elementos anteriores, que permanecen en su dispositivo, la Aplicación no recoge su nombre, su correo electrónico, sus contactos, su ubicación, su identificador publicitario, sus datos bancarios ni ninguna estadística de uso.</p>
+<h2 id="a5">Artículo 5. Finalidades y bases jurídicas</h2>
+<div class="rec"><div><b>Finalidad</b>Despertador y seguimiento del sueño</div><div><b>Datos</b>Horas de acostarse y de despertarse, duraciones, alarmas pospuestas</div><div><b>Base jurídica</b>Ejecución del servicio que usted solicita (art. 6.1.b RGPD)</div><div><b>Conservación</b>Hasta que usted los borre o desinstale la Aplicación</div></div>
+<div class="rec"><div><b>Finalidad</b>Cuestionario, puntuación de recuperación y consejos</div><div><b>Datos</b>Respuestas al cuestionario (datos de bienestar y de salud)</div><div><b>Base jurídica</b>Su consentimiento explícito (art. 6.1.a y 9.2.a RGPD), dado al aceptar la presente política</div><div><b>Conservación</b>Hasta que usted los borre o desinstale la Aplicación</div></div>
+<div class="rec"><div><b>Finalidad</b>Suscripción Pylia Premium</div><div><b>Datos</b>Estado de la suscripción e historial de compras, transmitidos por Apple a la Aplicación (sin datos bancarios)</div><div><b>Base jurídica</b>Ejecución del contrato de suscripción (art. 6.1.b RGPD)</div><div><b>Conservación</b>Durante la suscripción; los datos de pago los conserva Apple según su propia política</div></div>
+<div class="rec"><div><b>Finalidad</b>Alarmas y recordatorios</div><div><b>Datos</b>Hora de despertar programada</div><div><b>Base jurídica</b>Ejecución del servicio que usted solicita (art. 6.1.b RGPD)</div><div><b>Conservación</b>Hasta que suene la alarma o el recordatorio</div></div>
+<h2 id="a6">Artículo 6. Destinatarios de los datos</h2>
+<p>Ningún dato se vende, alquila ni cede. Los únicos destinatarios posibles son:</p>
+<ul><li><strong>Apple</strong>, si ha activado la copia de seguridad de su dispositivo (iCloud), en las condiciones de su propia política de privacidad.</li><li><strong>Apple</strong>, como gestor de los pagos del App Store, si se suscribe a Pylia Premium. El pago lo gestiona íntegramente Apple: el Editor nunca tiene acceso a sus datos bancarios.</li></ul>
+<h2 id="a7">Artículo 7. Transferencias fuera de la Unión Europea</h2>
+<p>El Editor no realiza ninguna transferencia de datos fuera de la Unión Europea. Los datos gestionados por Apple (copia de seguridad iCloud, pagos) los trata Apple conforme a su propia política de privacidad.</p>
+<h2 id="a8">Artículo 8. Plazo de conservación</h2>
+<p>Sus datos permanecen en su dispositivo mientras la Aplicación esté instalada. Puede borrarlos en cualquier momento desde Ajustes → Borrar historial. Desinstalar la Aplicación borra todos sus datos.</p>
+<h2 id="a9">Artículo 9. Seguridad</h2>
+<p>Los datos se guardan en el espacio reservado a la Aplicación en su dispositivo y se benefician del aislamiento y el cifrado de iOS. La Aplicación no envía ninguno de sus datos por Internet.</p>
+<h2 id="a10">Artículo 10. Permisos del dispositivo</h2>
+<p>La Aplicación puede solicitarle los siguientes permisos, todos opcionales y modificables en cualquier momento en los Ajustes del iPhone:</p>
+<ul><li><strong>Alarmas</strong>: hacer sonar el despertador incluso en modo silencio o «No molestar»;</li><li><strong>Apple Salud</strong>: leer las noches registradas por un reloj, un anillo u otra app (solo lectura);</li><li><strong>Notificaciones</strong>: recordarle que responda al cuestionario.</li><li><strong>Notificaciones</strong>: recordarle por la noche que empiece su rutina de sueño.</li></ul>
+<h2 id="a11">Artículo 11. Cookies y rastreadores</h2>
+<p>La Aplicación no utiliza ninguna cookie, ningún rastreador publicitario ni ninguna herramienta de medición de audiencia.</p>
+<h2 id="a12">Artículo 12. Sus derechos</h2>
+<p>De conformidad con los artículos 15 a 22 del RGPD, usted dispone de los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición, así como del derecho a retirar su consentimiento en cualquier momento.</p>
+<p>Como sus datos se conservan en su dispositivo, puede ejercer la mayoría de estos derechos directamente (consulta en la Aplicación, borrado desde los Ajustes, retirada de permisos en iOS). Para cualquier solicitud: pylia.app+sleep@gmail.com.</p>
+<p>También puede presentar una reclamación ante su autoridad de protección de datos: en España, la AEPD (<a href="https://www.aepd.es">www.aepd.es</a>); en Francia, la CNIL (<a href="https://www.cnil.fr">www.cnil.fr</a>).</p>
+<h2 id="a13">Artículo 13. Menores</h2>
+<p>Los usuarios que no hayan alcanzado la edad de consentimiento digital de su país (14 años en España, 15 en Francia) deben obtener la autorización de uno de sus padres para utilizar la Aplicación.</p>
+<h2 id="a14">Artículo 14. Modificación de la política</h2>
+<p>El Editor puede modificar la presente política, en particular si la Aplicación o la normativa cambian. Toda nueva versión se presenta en la Aplicación y debe aceptarse para seguir utilizándola.</p>
+<h2 id="a15">Artículo 15. Contacto</h2>
+<p>Para cualquier pregunta sobre la presente política: pylia.app+sleep@gmail.com.</p>
+<footer>Pylia Sleep es una app de bienestar, no un producto sanitario.<br>Contacto : <a href="mailto:pylia.app+sleep@gmail.com">pylia.app+sleep@gmail.com</a></footer>
+</div></body></html>
